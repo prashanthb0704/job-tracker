@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const API = "http://127.0.0.1:8000/api/jobs/";
+const API = "https://job-tracker-ol9n.onrender.com";
 
 const STATUS_COLORS = {
   Applied: "bg-blue-100 text-blue-700",
